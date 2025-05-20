@@ -59,6 +59,10 @@ def conectar_banco():
         database="railway"
     )
     return conexao
+
+
+No terminal da API, execute (caso os pacotes não estejam instalados):
+pip install flask mysql-connector-python flask-cors
 	
 Execute:
 python app.py (ou pelo modo de depuração, colocando
